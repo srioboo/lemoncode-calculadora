@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo "Descargando código del repositorio"
                 sh '''
-                  git clone url-repositorio
+                  git clone https://github.com/srioboo/lemoncode-calculadora.git
                 '''
             }
         }
